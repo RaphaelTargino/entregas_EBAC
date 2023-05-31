@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body  > header {
+    background-color: rgb(97, 100, 99);
+    padding: 16px 0;
+    color: rgb(255, 252, 252);
+}
+
+header .Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
+}
+
+header li :hover{
+    color: rgb(187, 187, 234);
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+.Container {
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.Artigos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Artigos article img {
+    /*height: 180px;*/
+    width: 100%;
+}
+
+.Artigos article {
+    width: 30%;
+}
+
+section {
+    padding: 16px 0;
+}
+
+section H2,
+.Artigos {
+    margin-bottom: 16px;
+}
+
+.Artigos article h3 {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.Artigos article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.Artigos article a:hover {
+    text-decoration: underline;
+}
+
+.Artigos article p,
+.Artigos article a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Artigos article h3 {
+    font-size: 24px;
+}
+
+section h2 {
+    font-size: 32px;
+}
+
+#Esportes {
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#Esportes .Artigos article a {
+    background-color:  rgba(109, 248, 109, 0.8);
+    color: black;
+}
+
+#Economia {
+    background-color: rgb(253, 253, 131);
+}
+
+#Economia .Artigos article a {
+    background-color: rgb(247, 165, 13);
+    color: black;
+
+}
+
+#Pop {
+    background-color: rgb(235, 195, 247);
+}
+
+#Pop .Artigos article a {
+    background-color: rgb(185, 0, 209);
+    color: black;
+}
+
+#Carros {
+    background-color: rgb(205, 206, 255);
+}
+
+#Carros .Artigos article a {
+    background-color: rgb(60, 68, 214);
+    color: black;
+}
